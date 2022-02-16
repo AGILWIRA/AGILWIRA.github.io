@@ -1,0 +1,392 @@
+body {
+    margin: 0;
+}
+.Header {
+    background-color: #3e5cad;
+    height: 100px;
+}
+#column { background-color: #abcdef;}
+
+.headlineindex {
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    padding: 15px;
+    text-align: center;
+    line-height: 2px;
+    color:#536799
+}
+.headlineindex:hover{
+    color: dodgerblue;
+}
+.headlineindexh2{
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    line-height: 10px;
+    color:#8ca4e2;
+}
+img.pp {
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+    width: 200px;
+    height:200px;
+    border-radius:50%;}
+
+.content {
+background: #18213d;
+height: 1000px;
+}
+
+#linked {
+    padding-top: 35px;
+    padding-left: 2px;
+}
+#linked ul{
+    margin: 0;
+    width: 50%;
+}
+
+#linked ul li{
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    margin-left: 2px;
+}
+
+#linked ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 30px 0 10px 5px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #18213d;
+}
+
+#linked ul li a:hover ,#linked ul li a.active{
+    border-bottom: 2px solid;
+    color: rgb(144, 199, 247);
+}
+.bio {
+    text-align: left; 
+    color: #536799;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top:100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 50px;
+}
+.bio:hover {
+    color: #3e5cad;
+}
+
+#myskill {
+    text-align: center; 
+    color: #536799;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+}
+#myskill:hover {
+    color: #3e5cad;
+}
+
+.mainmenubtn {
+    background-color: wheat;
+    color:black;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin: 30px 0px 25px 15px;
+    border-radius: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#judultujuan {
+    text-align: center;
+    font-style: italic;
+}
+#texttujuan {
+    font-size: 25px;
+    text-align: justify;
+}
+
+#judul {
+    text-align:  center;
+    font-weight: bold;
+    font-style: italic;
+}   
+.text {
+    text-align: justify;
+    font-size: 25px;
+}
+
+
+#judulkegiatan {
+    text-align: center;
+    font-style: italic;
+}
+
+#textkegiatan {
+    font-size: 25px;
+    text-align: justify;
+}
+
+.footer{       
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: #3a53a5 ;
+    color: white;
+    height: 190px;
+}
+.textheadline{
+    float: right; 
+    margin:5px 20px 10px 0px; 
+    color: vlac   ; stroke: #18213d; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+.textheadline:hover{color: darkcyan;}
+
+span {color: rgb(126, 2, 2);}
+
+#headlineprofile {
+    margin-top: 5px;
+}
+
+#headlineprofile img{
+    width: 20%;
+    border-radius: 50%;
+    width: 220px;
+    border: 5px solid wheat;
+    margin-left: 30px;
+}
+#headlineprofile img:hover{
+    border: 5px solid #3e5cad;
+}
+
+.mespan {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    color: #6784d4;
+    margin-right: 0;
+    margin-left: 80px;
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 20px;
+    font-family: cursive;
+}
+.img-skill {
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.img-skill p{
+    text-align: center;
+    color: white;
+    padding-left: 20px;
+}
+.skillhtml {
+    padding-right: 15px;
+}
+.skillc {
+    padding-left: 0;
+    padding-right: 15px;
+}
+.img-skill img{
+    margin-top: 100px;
+
+}
+.skill {
+    width: 180px;
+    border-radius: 50%;
+    border: 5px solid #8ca4e2;
+}
+.myskill{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#footer-link {
+    padding-top: 35px;
+    padding-left: 0;
+}
+#footer-link ul{
+    margin: 0;
+    width: 50%;
+}
+
+#footer-link ul li{
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+#footer-link ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 30px 0;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #18213d;
+}
+
+#footer-link ul li a:hover ,#linked ul li a.active{
+    border-bottom: 2px solid;}
+
+#footer-link h4 {
+    padding-left: 35px;
+    color: #18213d;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+.linksosial {
+    float: right;
+    margin: 50px 20px 0 0;
+}
+.linksosial li{
+    list-style: none;
+}
+.linksosial img{
+    width: 50px;
+    padding: 5px;
+    border-radius: 20%;
+}
+.linksosial p {
+    color: aliceblue;
+    text-align: center;
+}
+#hoby-content {
+    display: inline-block;
+}
+#hoby-content h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #536799;
+    font-size: 45px;;
+    font-weight: bold;
+}
+#hoby-content h1:hover {
+    color: #abcdef;
+}
+#hoby {
+    width: 670px;
+    margin-top:35px;
+    border-radius: 20px;
+    margin-left: 40px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+#hoby h2{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #536799;
+}
+#hoby h2:hover {
+    color: #abcdef;
+}
+.basket-img img{
+    width: 200px;
+    margin-left: 20px;
+    border-radius: 40px;
+}
+.basket-img p{
+    color: #9ba1b4;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0 10px 0 20px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.movie-img img{
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.movie-img p{
+    color: #9ba1b4;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0 10px 0 20px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.game-img img{
+    width: 200px;
+    margin-left: 20px;
+    border-radius: 40px;
+}
+.game-img p{
+    color: #9ba1b4;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0 10px 0 20px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#games {
+    width: 670px;
+    margin-top:35px;
+    border-radius: 20px;
+    margin-left: 400px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+#games h2{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #536799;
+}
+#games h2:hover {
+    color: #abcdef;
+}
+
+#contactp {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #536799;
+    margin-top: 10px;
+}
+.wa-logo{
+    width: 100px;
+    margin-top: 40px;
+}
+#contactp caption{
+    font-weight: bold;
+}
+
+.line-logo {
+    width: 160px;
+    margin-top: 40px;
+}
+
+#aboutweb {
+    border: 2px solid #536799;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 40px;
+    margin-top: 50px;
+}
+
+#aboutweb h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #536799;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.abouttext p{
+    color: #8ca4e2;
+    margin-left: 20px;
+    font-size: 19px;
+}
